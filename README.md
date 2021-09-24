@@ -3,7 +3,8 @@
 
 # Grorka
 
-Grorka is an addon made for myself for the game World of Warcraft.
+Grorka is an addon made for myself.
+It has been build to work for World of Warcraft Classic Burning Crusade.
 
 ## Issues
 
