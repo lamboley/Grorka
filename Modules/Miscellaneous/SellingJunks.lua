@@ -1,9 +1,9 @@
 
 local GetContainerNumSlots, GetContainerItemInfo, UseContainerItem = GetContainerNumSlots, GetContainerItemInfo, UseContainerItem
 
-local SellingJunks = CreateFrame("FRAME")
-SellingJunks:RegisterEvent("MERCHANT_SHOW")
-SellingJunks:SetScript("OnEvent", function() 
+local frame = CreateFrame("FRAME")
+frame:RegisterEvent("MERCHANT_SHOW")
+frame:SetScript("OnEvent", function() 
     local icon, quality
     for bagID = 0, 4 do
         for slot = 1, GetContainerNumSlots(bagID) do
