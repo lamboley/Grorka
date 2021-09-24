@@ -1,3 +1,6 @@
+
+local GetContainerNumSlots, GetContainerItemInfo, UseContainerItem = GetContainerNumSlots, GetContainerItemInfo, UseContainerItem
+
 local SellingJunks = CreateFrame("FRAME")
 SellingJunks:RegisterEvent("MERCHANT_SHOW")
 SellingJunks:SetScript("OnEvent", function() 
