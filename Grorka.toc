@@ -1,0 +1,14 @@
+## Interface: 20502
+## Title: Grorka
+## Author: Grorka
+## Version: 0.0.1
+
+TaintLess.xml
+
+Grorka.lua
+
+Modules\Miscellaneous\SellingJunks.lua
+Modules\Miscellaneous\RepairAllItems.lua
+Modules\Miscellaneous\CVars.lua
+
+Modules\ChatFame.lua
