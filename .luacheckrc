@@ -7,5 +7,12 @@ exclude_files = {
 ignore = {
 }
 globals = {
-    "LibStub"
+    "ChatFrame1",
+    "UIParent",
+    "FCF_GetCurrentChatFrame",
+
+    "LibStub",
+
+    "hooksecurefunc",
+    "SetCVar",
 }
