@@ -7,4 +7,5 @@ exclude_files = {
 ignore = {
 }
 globals = {
+    "LibStub"
 }
