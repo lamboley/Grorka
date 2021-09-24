@@ -3,7 +3,7 @@ local IsShiftKeyDown, CanMerchantRepair, GetRepairAllCost, IsInGuild, CanGuildBa
 
 local frame = CreateFrame("FRAME")
 frame:RegisterEvent("MERCHANT_SHOW")
-frame:SetScript("OnEvent", function() 
+frame:SetScript("OnEvent", function()
     if not IsShiftKeyDown() and CanMerchantRepair() then
         if select(2, GetRepairAllCost()) then
             if IsInGuild() and CanGuildBankRepair() then

@@ -22,6 +22,12 @@ globals = {
     "IsInGuild",
     "CanGuildBankRepair",
     "RepairAllItems",
+    "GetContainerNumSlots",
+    "GetContainerItemInfo",
+    "UseContainerItem",
+
+    "_G",
+    "_",
 
     "DEFAULT_CHATFRAME_ALPHA",
 }
