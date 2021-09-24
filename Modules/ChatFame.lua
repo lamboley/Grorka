@@ -1,3 +1,6 @@
+local _G = _G
+local hooksecurefunc = hooksecurefunc
+
 DEFAULT_CHATFRAME_ALPHA = 0
 
 ChatFrame1:ClearAllPoints()
