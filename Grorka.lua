@@ -1,5 +1,3 @@
-local _, addon = ...
-
 local LSM = LibStub('LibSharedMedia-3.0')
 
 local statusBar = LSM.MediaType.STATUSBAR

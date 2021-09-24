@@ -1,5 +1,3 @@
-local _, addon = ...
-
 local SellingJunks = CreateFrame("FRAME")
 SellingJunks:RegisterEvent("MERCHANT_SHOW")
 SellingJunks:SetScript("OnEvent", function() 

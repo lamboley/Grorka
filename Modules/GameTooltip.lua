@@ -1,5 +1,3 @@
-local _, addon = ...
-
 hooksecurefunc('GameTooltip_SetDefaultAnchor', function(tooltip, parent)
     if tooltip and parent then
         local a, _, c  = tooltip:GetPoint()

@@ -1,5 +1,3 @@
-local _, addon = ...
-
 local RepairFrame = CreateFrame("FRAME")
 RepairFrame:RegisterEvent("MERCHANT_SHOW")
 RepairFrame:SetScript("OnEvent", function() 

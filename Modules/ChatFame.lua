@@ -1,5 +1,3 @@
-local _, addon = ...
-
 DEFAULT_CHATFRAME_ALPHA = 0
 
 ChatFrame1:ClearAllPoints()
