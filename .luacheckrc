@@ -15,4 +15,13 @@ globals = {
 
     "hooksecurefunc",
     "SetCVar",
+    "CreateFrame",
+    "IsShiftKeyDown",
+    "CanMerchantRepair",
+    "GetRepairAllCost",
+    "IsInGuild",
+    "CanGuildBankRepair",
+    "RepairAllItems",
+
+    "DEFAULT_CHATFRAME_ALPHA",
 }
